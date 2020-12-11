@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    font-family: "Maven Pro", sans-serif;
+    text-decoration: none;
+  }
+  
+  a {
+    color: black;
+    
+  }
+  .head {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  .head h2 {
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+  }
+  .input-div {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    
+  }
+  .input-main {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+    
+  }
+  .input-div input {
+    background-color: transparent;
+    border: 2px solid;
+    outline: none;
+    font-size: 16px;
+    margin-top: 5px;
+    height: 30px;
+    margin-bottom: 5px;
+    /* text-align: center; */
+    padding: 6px;
+    background-color:#f5f5f5;
+    font-size: 30px;
+  }
+  .input-div button {
+    height: 30px;
+    margin-top: 5px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    border: 2px solid;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: navy;
+    color: oldlace;
+    width: 120px;
+    border-radius: 15px;
+    align-self: center;
+    margin: 20px;
+  }
+  .data-div h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .input-div button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .data-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .data-div {
+    margin-top: 20px;
+    width: 400px;
+  }
+  .data-div .div {
+    height: auto;
+    background-color: #e0e0e0;
+    margin-bottom: 10px;
+  }
+  .data-div p {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 17px;
+    text-transform: capitalize;
+  }
+  .data-div button {
+    height: 25px;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .loader {
+    text-align: center;
+    margin-top: 10px;
+  }
+  @media (max-width: 440px) {
+    .input-div {
+      width: 300px;
+    }
+    .data-div {
+      width: 300px;
+    }
+  }
