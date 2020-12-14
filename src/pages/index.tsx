@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <div>
       <div className="head">
-        <h2>Bookmark App</h2>
+        <h2 style={{color: "navy", fontFamily:'initial'}}>BootMark</h2>
       </div>
       <div>
         <Formik
@@ -113,7 +113,7 @@ export default function Home() {
           <div className="data-div">
             {data !== undefined || (null && data.bookmarks.length !== 0)
               ? data.bookmarks.map((v, i) => (
-                  <div key={i} className="div">
+                  <div key={i} className="div2" style={{color: 'white', width:"200px", height: '150px', borderRadius: '50%'}}>
                     <div>
                       <h3>{v.title}</h3>
                     </div>
