@@ -113,7 +113,7 @@ export default function Home() {
           <div className="data-div">
             {data !== undefined || (null && data.bookmarks.length !== 0)
               ? data.bookmarks.map((v, i) => (
-                  <div key={i} className="div2" style={{width:"200px", height: '150px', borderRadius: '50%', backgroundColor: 'lightblue'}}>
+                  <div key={i} className="div">
                     <div>
                       <h3>{v.title}</h3>
                     </div>
